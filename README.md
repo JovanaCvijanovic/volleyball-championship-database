@@ -12,8 +12,6 @@ Baza se sastoji od šest povezanih tabela:
 - **Dvorana** – sadrži informacije o dvoranama u kojima se utakmice održavaju  
 - **Sudija** – čuva podatke o sudijama i utakmicama koje sude  
 
----
-
 ## Funkcionalnosti baze
 
 Baza omogućava niz operacija i analiza nad podacima:  
@@ -33,11 +31,10 @@ Baza omogućava niz operacija i analiza nad podacima:
 - **Transakcije:**  
   - Omogućavaju sigurno unošenje novih igrača, uz proveru da li je reprezentacija već unesena, automatsko određivanje primarnog ključa i kontrolu grešaka.  
 
----
-
 ## Korišćena tehnologija
 
 Baza je kreirana i administrirana pomoću **phpMyAdmin**, alata koji omogućava jednostavno upravljanje MySQL/MariaDB bazama podataka preko web interfejsa.  
+
 Karakteristike uključuju:  
 
 - Kreiranje, modifikaciju i brisanje baza, tabela i kolona  
@@ -47,10 +44,11 @@ Karakteristike uključuju:
 - Export i import podataka u različitim formatima  
 - Prikaz grafičke strukture baze i administracija više servera  
 
----
+## Preuzimanje projekta
 
-## Preuzimanje baze
-
-Bazu možete preuzeti kao **ZIP fajl**:  
+Ceо projekat je dostupan kao **ZIP fajl** za preuzimanje i pregled:
 - `odbojkasko_prvenstvo.sql` – sadrži strukturu i podatke tabela  
-- `radbaze.txt` – pokazuje rad sa podacima, uključujući upite, poglede, procedure, okidače i transakcije  
+- `radbaze.txt` – pokazuje rad sa podacima, uključujući upite, poglede, procedure, okidače i transakcije
+
+Možete ga preuzeti klikom na dugme **Code → Download ZIP** u gornjem desnom uglu repozitorijuma.  
+
